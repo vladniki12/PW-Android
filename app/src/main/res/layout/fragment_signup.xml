@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:padding="8dp">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextEmail" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"
+            android:hint="@string/email_main_title"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextUserName" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"
+            android:hint="@string/name_title"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextPassword" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"
+            android:hint="@string/password_title"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextConfirmPassword" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"
+            android:hint="@string/confirm_password_main_title"/>
+    <Button
+            android:text="@string/sign_up_main_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnSignUp" android:layout_marginTop="8dp"/>
+    <TextView
+            android:text="@string/sign_in_main_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnSignIn" android:padding="10dp"
+            android:gravity="clip_horizontal|center_horizontal"/>
+</LinearLayout>

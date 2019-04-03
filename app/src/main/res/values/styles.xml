@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/action_bar_dark</item>
+        <item name="colorPrimaryDark">@color/action_bar_dark</item>
+        <item name="colorAccent">@color/turtle_green</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:popupMenuStyle">@style/VerticalOffsetPopupMenuStyle</item>
+        <item name="popupMenuStyle">@style/VerticalOffsetPopupMenuStyle</item>
+
+    </style>
+
+    <style name="SplashScreenTheme" parent="NoActionBarTheme">
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="VerticalOffsetPopupMenuStyle" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:topOffset">50dp</item>
+        <item name="android:startOffset">50</item>
+        <item name="android:dropDownVerticalOffset">50dp</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+</resources>

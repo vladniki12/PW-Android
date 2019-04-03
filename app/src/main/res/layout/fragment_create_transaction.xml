@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+android:orientation="vertical">
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textViewToUserName" android:layout_margin="10dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editTextAmount" android:hint="@string/Amount_title" android:layout_margin="10dp"/>
+    <Button
+            android:text="@string/create_transaction_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnCreateTransaction" android:layout_margin="10dp"/>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:autofit="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".view.main.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/main_appbar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:background="@color/colorPrimary"
+            android:fitsSystemWindows="true">
+
+        <RelativeLayout
+                android:id="@+id/rl_bar"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <RelativeLayout
+                    android:id="@+id/rl_toolbar"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+
+                <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/customToolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                <com.smcorp.pw.common.UI.ToolbarSearchView
+                        android:id="@+id/materialSearchView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/toolbarTitle"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="90dp"
+                        android:layout_marginLeft="90dp"
+                        android:layout_marginEnd="8dp"
+                        android:maxLines="1"
+                        android:textAlignment="center"
+                        app:autoSizeTextType="uniform"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include
+            android:id="@+id/inc_content_main"
+            layout="@layout/content_main_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

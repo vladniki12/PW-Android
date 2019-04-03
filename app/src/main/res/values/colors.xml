@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>>
+    <color name="white">#fff</color>
+    <color name="action_bar_dark">@color/colorPrimary</color>
+    <color name="turtle_green">@color/colorPrimary</color>
+
+    <color name="dark_text">#2b3247</color>
+    <color name="cool_blue">#4a76ba</color>
+    <color name="light_dusty_red">#EFDDDD</color>
+    <color name="dusty_red">#c24e55</color>
+    <color name="dark">#2b3247</color>
+    <color name="pale_grey">#f2f4f8</color>
+</resources>

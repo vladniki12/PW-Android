@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/rootLinearLayout"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_text"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="start" android:text="@android:string/defaultMsisdnAlphaTag"
+            android:textStyle="bold" android:textAlignment="center"/>
+
+    <TextView
+            android:id="@+id/messageTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/dark_text"
+            tools:text="Все ваши данные будут удалены без возвртано!" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/okButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/pale_grey"
+
+                android:textColor="@color/dark_text"
+                android:text="OK"
+                android:layout_weight="1"
+                android:textAllCaps="false" android:gravity="center_horizontal|center_vertical"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cancelButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/pale_grey"
+
+                android:textColor="@color/dusty_red"
+                android:text="OK"
+                android:layout_weight="1"
+                android:visibility="visible"
+                android:textAllCaps="false" android:gravity="center_horizontal|center_vertical"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

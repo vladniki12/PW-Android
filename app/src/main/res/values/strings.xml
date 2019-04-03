@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PW</string>
+    <string name="username_title">Username: </string>
+    <string name="balance_title">Balance: </string>
+    <string name="id_title">Id: </string>
+    <string name="email_title">Email: </string>
+    <string name="history_title">History</string>
+    <string name="users_title">Users</string>
+    <string name="create_transaction_title">Create transaction</string>
+    <string name="name_title">Name</string>
+    <string name="Amount_title">Amount</string>
+    <string name="email_main_title">Email</string>
+    <string name="password_title">Password</string>
+    <string name="confirm_password_main_title">Confirm Password</string>
+    <string name="sign_in_main_title">Sign In</string>
+    <string name="sign_up_main_title">Sign Up</string>
+    <string name="to_username_title">To: </string>
+
+    <string name="main_screen_title"> Main Screen</string>
+
+    <string name="error_empty_email">Empty field Email</string>
+    <string name="error_empty_name">Empty field Name</string>
+    <string name="error_empty_password">Empty field Password</string>
+    <string name="error_empty_conform_password">Empty field Confirm Password</string>
+    <string name="error_contains_password">Passwords do not meet</string>
+    <string name="error_internal_server">Internal Server Error</string>
+</resources>

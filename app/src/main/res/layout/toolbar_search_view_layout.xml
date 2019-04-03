@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   xmlns:tools="http://schemas.android.com/tools"
+                                   android:id="@+id/toolbar_search_bar"
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginEnd="8dp"
+                                   android:layout_marginStart="8dp"
+                                   android:layout_width="match_parent"
+                                   app:cardElevation="0dp"
+                                   app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/whitePrimary">
+
+        <EditText
+                android:id="@+id/ed_search_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:background="@null"
+                android:hint="Поиск"
+                android:imeOptions="actionSearch"
+                android:inputType="textNoSuggestions" />
+
+        <ImageButton
+                android:id="@+id/bt_back"
+                style="@style/MSV_Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:paddingLeft="12dp"
+                android:paddingRight="6dp"
+                android:contentDescription="Поиск"
+                android:src="@drawable/bar_back"/>
+
+        <ImageButton
+                android:id="@+id/bt_clear"
+                style="@style/MSV_Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/bar_close"
+                android:contentDescription="Поиск"
+                android:visibility="gone"
+                tools:visibility="visible"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
